@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #d63031;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #d63031;
+    border-radius: 5px;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.maldini-img {
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.post {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.post h2 {
+    color: #d63031;
+}
+
+.date {
+    color: gray;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 16px;
+}
